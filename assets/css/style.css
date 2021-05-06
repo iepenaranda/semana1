@@ -1,0 +1,17 @@
+/* Estilo glbal */
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.casilla {
+    border: 2px solid black;
+    width: 300px;
+    height: 50px;
+    /* la unidad "em" es relativa, multiplica por su valor los valores ya establecidos 
+    también esta "rem", funciona similar pero este puede afectar las stylesheet padres */
+}
+
+.historial {
+    color: rgb(126, 123, 123);
+}
